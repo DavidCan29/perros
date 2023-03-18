@@ -16,18 +16,18 @@
   include "header.php";
   ?>
   <div class="bannerwrapper">
-    <div class="ancho">
-      <div class="textobanner">
-        <h1>DOG CAMP</h1>
-        <h3>Entrenamiento de perros</h3>
-      </div>
+    <!-- <div class="ancho"> -->
+    <div class="textobanner ancho">
+      <h1>DOG CAMP</h1>
+      <h3>Entrenamiento de perros</h3>
     </div>
+    <!-- </div> -->
   </div>
   <div class="acercadewrapper ancho">
     <div class="imagenes">
-      <div class="flex">
-        <img src="img/acerca.jpg" alt="dog" />
-      </div>
+      <!-- <div class="flex"> -->
+      <img src="img/acerca.jpg" alt="dog" />
+      <!-- </div> -->
     </div>
     <div class="textoacercade">
       <h2>Acerca de...</h2>
@@ -43,11 +43,11 @@
     <div class="textomapa">
       <h2>Encuentranos en...</h2>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7448.329847766053!2d-89.51907593022462!3d21.02608600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5679f770271879%3A0x5097c5bb1c028490!2sInstincts%20Dog%20Camp!5e0!3m2!1ses!2smx!4v1670489194995!5m2!1ses!2smx" width="700" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7448.329847766053!2d-89.51907593022462!3d21.02608600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5679f770271879%3A0x5097c5bb1c028490!2sInstincts%20Dog%20Camp!5e0!3m2!1ses!2smx!4v1670489194995!5m2!1ses!2smx" width= "80%" max-width="700" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-  <div class="horarioswrapper">
-    <div class="ancho">
-      <h2>Horarios de atención.</h2>
+  <div class="horarioswrapper ancho">
+    <h2>Horarios de atención.</h2>
+    <div class="tablewrapper">
       <table>
         <tr>
           <th>Lunes</th>

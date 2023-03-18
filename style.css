@@ -60,9 +60,10 @@ h2 {
 
 .lineitems {
   display: flex;
-  justify-content: space-between;
+  width: 90%;
   height: 100%;
   align-items: center;
+  justify-content: space-between;
 }
 
 .ico {
@@ -132,14 +133,17 @@ a:hover {
   background-image: url(img/bannerperro.jpg);
   background-size: cover;
   background-position-y: center;
-  background-repeat: no-repeat;
+  background-position-x: center;
   background-attachment: fixed;
   height: 500px;
   padding: 70px 0px;
 }
 
-/* .bannerwrapper .textobanner {
-} */
+.textobanner{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
 
 .bannerwrapper .textobanner h1 {
   background-color: var(--color2-dark);
@@ -158,40 +162,40 @@ a:hover {
 }
 
 .acercadewrapper {
+  display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .acercadewrapper .imagenes {
-  display: inline-block;
-  vertical-align: middle;
   width: 48%;
+  display: flex;
+  justify-content: center;
 }
 
-.imagenes .flex {
+/* .imagenes .flex {
   display: flex;
   padding: 20px;
   justify-content: center;
-}
+} */
 
 .acercadewrapper .imagenes img {
   width: 70%;
 }
 
 .acercadewrapper .textoacercade {
-  display: inline-block;
-  vertical-align: middle;
   width: 48%;
   padding: 20px;
-  justify-content: top;
 }
 
 .acercadewrapper .textoacercade h2 {
   text-align: start;
+  width: 70%;
   padding: 0.2em;
   border-bottom: var(--color3-light) 2px solid;
   margin-bottom: 20px;
-  justify-content: top;
 }
 
 /* .acercadewrapper .textoacercade p {
@@ -221,13 +225,22 @@ a:hover {
 }
 
 .horarioswrapper {
+  display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .horarioswrapper h2 {
   margin: auto;
   margin-bottom: 10px;
+}
+
+.tablewrapper{
+  display: flex;
+  justify-content: center;
+  width: 90%;
 }
 
 table {
